@@ -10,3 +10,16 @@ numbers[2] += 5; //Adding 5 to the Third Number in the array
 let total = numbers.reduce((sum, numbers) => sum + numbers,0); //Adding up the numbers
 console.log(numbers);
 console.log(total);
+
+// Task 3
+let employee = {
+    name: "Abel",
+    role: "Manager",
+    performanceScore: 92,
+    isActive: true
+}; //Employee Information
+
+employee.performanceScore = 98 //Updated performance score
+employee.promotionEligible = true //Added new property
+
+console.log(employee);
