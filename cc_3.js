@@ -49,3 +49,14 @@ feedback.push ({
 }); //Adding more feedback
 
 console.log(feedback);
+
+//Task 5
+let inventory = {
+    itemName: "AirTag",
+    stockCount: 10000,
+    price: 25
+}; //Item information
+
+let calculateTotalValue = inventory.stockCount *= inventory.price; //Calculating value of inventory
+
+console.log(calculateTotalValue);
