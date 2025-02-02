@@ -23,3 +23,29 @@ employee.performanceScore = 98 //Updated performance score
 employee.promotionEligible = true //Added new property
 
 console.log(employee);
+
+//Task 4
+let feedback = [{
+   
+    name: "Luka",
+    feedbackText: "Very good!",
+    rating: 9,
+},
+{
+    name: "Anthony",
+    feedbackText: "It was really bad.",
+    rating: 2,
+},
+{
+    name: "Taylor",
+    feedbackText:"It was ok.",
+    rating: 5
+}]; //Creating the array with feedback
+
+feedback.push ({
+    name: "Pedro",
+    feedbackText: "I LOVED IT!",
+    rating: 10
+}); //Adding more feedback
+
+console.log(feedback);
